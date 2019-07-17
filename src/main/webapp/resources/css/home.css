@@ -1,0 +1,58 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-size: 129%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not (.active ) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+body {
+	font-size: 100%;
+}
+
+html {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f0f0f0;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	text-align: left;
+	padding: 8px;
+}
+
+legend {
+	font-size: 14px;
+	border-bottom: 2px solid #e5e5e5;
+	font: italic bold 12px/30px Georgia, serif;
+	margin-bottom: 5px;
+}
