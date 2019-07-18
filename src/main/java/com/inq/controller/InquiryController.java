@@ -24,8 +24,10 @@ public class InquiryController {
 		System.out.print("we are here");
 		System.out.print("we are here");
 		System.out.print("we are here");
+		
+		List<Inquiry> list=inquiryService.getInqData(id);
 		System.out.print("we are here");
-		return inquiryService.getInqData(id);       
+		return list;       
 	}
 
 /*	@RequestMapping("/category/{id}/products")
